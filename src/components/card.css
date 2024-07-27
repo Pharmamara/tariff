@@ -3,14 +3,12 @@
   height: 25vw;
   display: flex;
   flex-direction: column;
-  border: 1px solid #c7c4c4;
   text-align: center;
-  line-height: 1.5em;
   animation: box-shadow 3s ease;
   cursor: pointer;
   @media screen and (width<500px) {
-    width: 100vw;
-    height: 100vw;
+    width: 100vw !important;
+    height: 100vw !important;
   }
 }
 
@@ -18,7 +16,8 @@
   height: 20%;
   font-weight: bold;
   font-size: 1.2em;
-  /*background-color: rgb(30, 184, 178);*/
+  background-color: rgba(74, 74, 74, 0.874);
+  opacity: 40%;
   color: white;
   align-content: center;
 }
@@ -35,7 +34,7 @@
 .rc-speed {
   height: 20%;
   font-size: 1em;
-  /*background-color: rgb(240, 239, 239);*/
+  background-color: rgb(240, 239, 239);
   align-content: center;
   color: gray;
 }
@@ -43,7 +42,7 @@
   height: 20%;
   font-size: 1em;
   padding-bottom: 2%;
-  /*background-color: rgb(209, 209, 209);*/
+  background-color: rgb(209, 209, 209);
   align-content: center;
   color: gray;
 }

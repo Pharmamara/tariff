@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="App">
       {TARIFF.map((entry, index, TARIFF) => (
-        <Card {...entry} key={index} style={TARIFF.style} />
+        <Card style={TARIFF.style} {...entry} key={index} />
       ))}
     </div>
   );
