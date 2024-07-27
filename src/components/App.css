@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  @media screen and (width<500px) {
+    flex-direction: column;
+  }
+}

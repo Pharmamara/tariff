@@ -1,0 +1,49 @@
+.card {
+  width: 25vw;
+  height: 25vw;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c7c4c4;
+  text-align: center;
+  line-height: 1.5em;
+  animation: box-shadow 3s ease;
+  cursor: pointer;
+  @media screen and (width<500px) {
+    width: 100vw;
+    height: 100vw;
+  }
+}
+
+.rc-name {
+  height: 20%;
+  font-weight: bold;
+  font-size: 1.2em;
+  /*background-color: rgb(30, 184, 178);*/
+  color: white;
+  align-content: center;
+}
+.rc-price {
+  height: 40%;
+  font-weight: bold;
+  font-size: 2em;
+  padding-bottom: 2%;
+  /*background-color: rgb(120, 247, 243);*/
+  color: white;
+  align-content: center;
+}
+
+.rc-speed {
+  height: 20%;
+  font-size: 1em;
+  /*background-color: rgb(240, 239, 239);*/
+  align-content: center;
+  color: gray;
+}
+.rc-description {
+  height: 20%;
+  font-size: 1em;
+  padding-bottom: 2%;
+  /*background-color: rgb(209, 209, 209);*/
+  align-content: center;
+  color: gray;
+}
