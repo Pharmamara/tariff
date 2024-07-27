@@ -2,6 +2,7 @@
   text-align: center;
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
   @media screen and (width<500px) {
     flex-direction: column;
   }
